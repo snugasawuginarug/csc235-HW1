@@ -1,0 +1,205 @@
+/* Name: Ash Marchevsky 
+ 	Course: 235.01
+ 	Homework: #1
+ 	Git-Hub: https://github.com/snugasawuginarug/csc235-HW1	*/
+	
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	line-height: 20pt;
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	text-align: left;
+	height: 22vh;
+	display: flex;
+}
+
+header figure{
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	height: 100%;
+}
+
+#logo{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+#bannerTitle{
+	text-shadow: -3px 4px 4px #9ccded, 0 2px 4px #a8d5ee, -8px 8px 5px #c2ace3;
+	font-family: "Lucida Sans";
+	font-style: italic; 
+	font-weight: lighter;
+	font-size: 25pt;
+	color: #a50476;
+	margin-left: 4%;
+	margin-top: 6%;
+	height: 100%;
+}
+
+nav{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	line-height: 1.5;
+	width: 100%;
+	background-color: #777d9f;
+}
+
+table{
+	color: white;
+	border-collapse: collapse;
+	background-color: #7d83a5;
+	width: 89%;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+td{
+	border-left: 3px solid black;
+	height: 5vh;
+	text-align: center;
+	width: 12.5%;
+}
+
+.main{
+	display: flex;
+}
+
+body footer{
+	display: flex;
+}
+
+#home{
+	background-color:#27336b;
+	color:#e1dd76;
+	border: none;
+}
+
+p.artTitle{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	letter-spacing: 2.3pt;
+	line-height: 12pt;
+}
+
+p.subHeading{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1pt;
+	font-size: 11pt;
+	text-decoration: overline;
+}
+
+section{
+	background: linear-gradient(#f0deb0 1.5%, #ffffff 7.5%);
+	width: 59%;
+}
+
+section article{
+	margin-left: 14%;
+	padding-right: 3%;
+	margin-bottom: 3%;
+}
+
+.lGrey{
+	color: #ababab;
+}
+
+section figure{
+	line-height: 0;
+	font-size: 0;
+	margin-left: 0;
+}
+
+section img{
+	width: 110%;
+	border: 2px solid #e2cbcc;
+	outline: .5px inset black;
+}
+
+#purpleBox{
+	background-color: #ddddff;
+	width: 28%;
+	margin-top: 5%;
+	padding: 2% 5% .25% 5%;
+	border-style: hidden;
+	border-radius: 12%;
+	float: left;
+}
+
+.link{
+	color: #357dcf;
+}
+
+#copyPurple {
+	display: flex;
+	align-items: center;
+}
+
+#copyPurple .copyLine{
+	margin-left: 1%;
+}
+
+aside{
+	width: 41.7%;
+	float: left;
+	background: linear-gradient(#bd77b0 1.5%, #eab8c3 7.5%);
+	height: 75%;
+}
+
+aside p {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 0;
+}
+
+aside figure{
+		line-height: 0;
+		font-size: 0;
+		margin-left: 5%;
+}
+aside img{
+	border: 3px solid #d71ed0;
+	background-color:#d71ed0;
+	width: 80%;
+}
+
+aside article{
+	border: 3px dotted #ae686e;
+	height: 40%;
+	margin-top:4%;
+	padding-top: 0;
+	padding-bottom: 5%;
+}
+
+.blueText{
+	color: #3b32d3;
+}
+
+.dullBrown{
+	color: #79574a;
+}
+
+footer{
+	background: url("images/footer.jpg") no-repeat center;
+	background-size: cover;
+	color: #c6c815;
+	height: 20vh;
+	padding-left: 2%;
+	margin-top: 0;
+}
+footer div{
+	display: block;
+	margin-right: 70%;
+	marging-top: 0;
+	font-size: 11pt;
+}
+
+.lilacLink{
+	color: #bfc0d6;
+}
